@@ -24,12 +24,12 @@ public class Main {
             System.out.println("| 11. Sắp xếp tăng dần theo tựa CD              |");
             System.out.println("|  0. Thoát                                     |");
             System.out.println("=================================================");
-            System.out.print("👉 Chọn chức năng: ");
+            System.out.print("Chọn chức năng: ");
 
             try {
                 luaChon = Integer.parseInt(sc.nextLine());
             } catch (NumberFormatException e) {
-                System.out.println("⚠️ Vui lòng nhập số!");
+                System.out.println("Vui lòng nhập số!");
                 continue;
             }
 
